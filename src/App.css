@@ -119,8 +119,6 @@ to {
 }
 
 .box {
-  /* display: flex;
-  flex-direction: column; */
   height: 150px;
   width: 300px;
   box-sizing: border-box;
@@ -191,3 +189,30 @@ top: 47%;
   color: white;
   font-size: 20px;
 }
+
+.team {
+  height: 500px;
+  width: 100%;
+}
+
+.team .person1 {
+  background:url(./person-1.jpg);
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+
+.team .person2 {
+  background:url(./person-2.jpg);
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+
+.team .person3 {
+  background:url(./person-3.jpg);
+  height: 400px;
+  width: 300px;
+  background-size: cover;
+}
+
